@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #01263b;
+    color: white;
+    text-align: center;
+}
+
+
+header{
+    padding: 40px 20px;
+}
+
+header h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+header p{
+    margin-top: 15px;
+    font-size: 22px;
+    color: #d9d9d9;
+}
+
+
+.card{
+    width: 85%;
+    margin: auto;
+    background: #020228;
+    border-radius: 25px;
+    padding: 40px 30px;
+    box-shadow: 0 0 20px #00bfff;
+    border: 2px solid #0ff;
+}
+
+.doctor-image img{
+    width: 260px;
+    border-radius: 20px;
+    border: 4px solid #666;
+    box-shadow: 0 0 15px #00bfff;
+}
+
+.card h2{
+    margin-top: 30px;
+    font-size: 50px;
+    color: #00bfff;
+}
+
+.description{
+    margin-top: 25px;
+    font-size: 28px;
+    line-height: 1.7;
+    padding: 0 20px;
+}
+
+
+button{
+    margin-top: 35px;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 40px;
+    background: #004d66;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    box-shadow: 0 0 15px #00bfff;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #0088aa;
+    transform: scale(1.05);
+}
+
+
+footer{
+    margin-top: 50px;
+    padding: 30px;
+    background: #02344f;
+    font-size: 24px;
+}
+
+footer p{
+    margin: 15px 0;
+}
+
+footer i{
+    margin-right: 10px;
+}
+
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>salmaHospital</title>
+
+    
+    <link rel="stylesheet" href="sihaam.css" />
+
+    
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>salma Hospital <i class="fa-solid fa-stethoscope"></i></h1>
+        <p>Caafimaadkaagu waa mudnaanteenna 1aad.</p>
+    </header>
+
+    
+    <section class="card">
+
+        <div class="doctor-image">
+            <img src="salma.jpeg" alt="Doctor">
+        </div>
+
+        <h2>24 Hours Medical Care</h2>
+
+        <p class="description">
+            salma hospital waa isbitaal bixiya adeegyo caafimaad oo tayo sare leh 24 saacadood,
+            wuxuu ku dadaalaa in uu siiyo bukaannada daryeel caafimaad oo degdeg ah.
+        </p>
+
+        <button>Contact Us</button>
+
+    </section>
+
+    
+    <footer>
+        <p>©️ 2026 salmaHospital</p>
+
+        <p>
+            <i class="fa-brands fa-whatsapp"></i>
+            +252-615506232
+        </p>
+
+        <p>
+            <i class="fa-brands fa-facebook"></i>
+            salma Hospital
+        </p>
+    </footer>
+
+</body>
+</html>
